@@ -5,21 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock, Scissors, and Paper Game</title>
-    
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Oswald&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div class="selection">
-        <button class="select-button" id="button1"></button>
-        <button class="select-button" id="button2"></button>
-        <button class="select-button" id="button3"></button>
-    </div>
-
     <div class="result">
+        <div class="counter">
+            <div class="player">
+                <p>Player Win: <span>0</span></p>
+            </div>
+            <div class="computer">
+                <p>Computer Win: <span>0</span></p>
+            </div>
+        </div>
+        <div class="winner">
+
+        </div>
+    </div>
+
+    <div class="game">
+        <div class="game-counter">
+            <p>Game: <span>1</span></p>
+        </div>
+
+        <div class="play-field">
+            <div class="buttons">
+                <button class="select-button" id="button1">
+                    <img src="images/fist.svg" alt="rock-hand">
+                </button>
+                <button class="select-button" id="button2">
+                    <img src="images/release.svg" alt="paper-hand">
+                </button>
+                <button class="select-button" id="button3">
+                    <img src="images/peace.svg" alt="scissors-hand">
+                </button>
+            </div>
+            <div class="battle">
+                <span>VS</span>
+            </div>
+            <div class="computer-choose">
+
+            </div>
+        </div>
 
     </div>
+
+    <div class="footer">
+        <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+        <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 
