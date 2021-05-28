@@ -30,7 +30,7 @@ body{
     height: 100%;
 }
 
-.player, .computer{
+.counter > .player, .counter > .computer{
     font-family: 'Odibee Sans', cursive;
     font-size: 3em;
     display: flex;
@@ -67,14 +67,37 @@ body{
     height: 85%;
 }
 
-.play-field > .buttons{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+.play-field > .player{
+    position: relative;
     background-color: orange;
     width: 45%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-field > .player > .player-text{
+    width: 3em;
+    position: absolute;
+    left: 20%;
+}
+
+.play-field > .player > .player-text > p{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-family: 'Odibee Sans', cursive;
+    font-size: 3em;
+}
+
+.play-field > .player > .player-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.select-button{
+    margin-top: 10px;
 }
 
 .select-button > img{
@@ -96,10 +119,26 @@ body{
     font-size: 2.5em;
 }
 
-.play-field > .computer-choose{
+.play-field > .computer{
+    position: relative;
     background-color: bisque;
     width: 45%;
     height: 100%;
+}
+
+.play-field > .computer >.computer-text{
+    display: flex;
+    justify-content: center;
+    width: 3em;
+    position: absolute;
+    right: 20%;
+}
+
+.play-field > .computer > .computer-text > p{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-family: 'Odibee Sans', cursive;
+    font-size: 2.5em;
 }
 
 /* DOWN PART */
