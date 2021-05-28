@@ -38,6 +38,14 @@ body{
     align-items: center;
 }
 
+.winner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40%;
+}
+
 /* MIDDLE PART */
 
 .game{
@@ -121,6 +129,8 @@ body{
 
 .play-field > .computer{
     position: relative;
+    display: flex;
+    align-items: center;
     background-color: bisque;
     width: 45%;
     height: 100%;
