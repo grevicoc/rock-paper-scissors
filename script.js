@@ -109,7 +109,7 @@ function updateDisplay(){
     
         case -1:
             resultText.textContent = `GAME ${currentGame+1} WINNER: COMPUTER`; 
-            computerWin.innerHTML = parseInt(playerWin.textContent) + 1;
+            computerWin.innerHTML = parseInt(computerWin.textContent) + 1;
             break;
 
         case 0:
