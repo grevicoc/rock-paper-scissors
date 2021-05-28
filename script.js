@@ -154,29 +154,3 @@ buttonScissors.addEventListener('click',()=>{
     playerChoose = "scissors";
     updateDisplay();
 })
-
-
-
-// var i;
-// for (i=0;i<5;i++){
-    
-//     let computerSelection = computerPlay();
-
-//     console.log(computerSelection);
-//     let result = playRound(playerSelection,computerSelection); 
-//     console.log(result);
-
-//     if (result=="USER WIN!"){
-//         userCount++;
-//     }else if (result=="COMPUTER WIN!"){
-//         computerCount++;
-//     }
-// }
-
-// if (userCount>computerCount){
-//     console.log("FINAL RESULT USER WIN!");
-// }else if (userCount==computerCount){
-//     console.log("FINAL RESULT DRAW!");
-// }else{
-//     console.log("FINAL RESULT COMPUTER WIN!");
-// }
