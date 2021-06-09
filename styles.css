@@ -6,28 +6,31 @@ body{
 /* TOP PART */
 
 .result{
-    background-color: blue;
     width: 100%;
     height: 30%;
 }
 
 .counter{
     display: flex;
-    background-color: yellow;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #69dad2;
     width: 100%;
     height: 60%;
 }
 
 .counter > .player{
-    background-color: white;
-    width: 50%;
-    height: 100%;
+    background-color: rgba(132,169,195,0.5);
+    width: 40%;
+    height: 75%;
+    border-radius: 15%;
 }
 
 .counter > .computer{
-    background-color: rgb(153, 82, 82);
-    width: 50%;
-    height: 100%;
+    background-color: rgba(132,169,195,0.5);
+    width: 40%;
+    height: 75%;
+    border-radius: 15%;
 }
 
 .counter > .player, .counter > .computer{
@@ -42,20 +45,21 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: linear-gradient(#69dad2,rgba(129,170,196,255));
+    
     width: 100%;
-    height: 40%;
+    height: 41%;
 }
 
 /* MIDDLE PART */
 
 .game{
-    background-color: white;
     width: 100%;
     height: 60%;
 }
 
 .game-counter{
-    background-color: aquamarine;
+    background-image: linear-gradient(rgba(129,170,196,255),rgba(132,169,195,255));
     width: 100%;
     height: 15%;
 }
@@ -70,16 +74,16 @@ body{
 
 .play-field{
     display: flex;
-    background-color: blueviolet;
+    
     width: 100%;
-    height: 85%;
+    height: 86%;
 }
 
 .play-field > .player{
     position: relative;
-    background-color: orange;
+    background-image: linear-gradient(rgba(132,169,195,255),rgba(175,58,152,255));
     width: 45%;
-    height: 100%;
+    height: 99%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,12 +118,12 @@ body{
 }
 
 .play-field > .battle{
-    background-color: pink;
+    background-image: linear-gradient(rgba(132,169,195,255),rgba(175,58,152,255));
     display: flex;
     justify-content: center;
     align-items: center;
     width:  10%;
-    height: 100%;
+    height: 99%;
 }
 
 .battle > span{
@@ -131,9 +135,9 @@ body{
     position: relative;
     display: flex;
     align-items: center;
-    background-color: bisque;
+    background-image: linear-gradient(rgba(132,169,195,255),rgba(175,58,152,255));
     width: 45%;
-    height: 100%;
+    height: 99;
 }
 
 .play-field > .computer >.computer-text{
@@ -158,7 +162,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: gray;
+    background-color: rgba(175,58,152,255);
     width: 100%;
     height: 10%;
 }
